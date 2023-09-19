@@ -84,11 +84,11 @@ All the models can be found in the models directory created using mongoose.
 ### Cart Schema:
 
 - items: an array of objects, each object contains: <br>
-  ~ productId (ObjectId - a reference to the product schema) <br>
-  ~ qty (Number) <br>
-  ~ price (Number) <br>
-  ~ title (String) <br>
-  ~ productCode (Number) <br>
+  - productId (ObjectId - a reference to the product schema) <br>
+  - qty (Number) <br>
+  - price (Number) <br>
+  - title (String) <br>
+  - productCode (Number) <br>
 - totalQty (Number)
 - totalCost (Number)
 - user (ObjectId - a reference to the user schema)
